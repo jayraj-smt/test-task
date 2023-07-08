@@ -1,0 +1,184 @@
+.header-logo {
+  height: 100px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F1ECE6;
+}
+
+.tabs-div .ant-tabs-nav-list {
+  width: 100%
+}
+
+.tabs-div .ant-tabs-tab.ant-tabs-tab-active {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-color: #F3F3F3;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.tabs-div .ant-tabs-tab {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-color: #F3F3F3;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #969696 !important;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-tabs .ant-tabs-tab+.ant-tabs-tab {
+  margin: 0;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #323232 !important;
+}
+
+.ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+  background-color: #D98326;
+  height: 5px !important;
+}
+
+.banner {
+  padding: 40px 200px 104px 200px
+}
+
+.add-todo-list-input {
+  margin-bottom: 40px;
+}
+
+input.ant-input.css-dev-only-do-not-override-14wwjjs.ant-input-compact-item.ant-input-compact-first-item {
+  background: #F1ECE6;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  color: #969696;
+  border-radius: 50px 0 0 50px;
+  padding: 15px 0 15px 35px;
+  border: none;
+  box-shadow: none;
+}
+
+.add-todo-button {
+  height: 78px;
+  background: #76B7CD;
+  width: 140px;
+  border-radius: 0 50px 50px 0;
+  padding: 10.5px 27px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 57px;
+  color: #F3F3F3 !important;
+}
+
+.add-todo-button:hover {
+  height: 78px;
+  background: #76B7CD !important;
+  width: 140px;
+  border-radius: 0 50px 50px 0;
+  padding: 10.5px 27px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 57px;
+  color: #F3F3F3 !important;
+  box-shadow: none !important;
+}
+
+button.ant-btn.css-dev-only-do-not-override-14wwjjs.ant-btn-primary.ant-btn-compact-item.ant-btn-compact-last-item.add-todo-button {
+  height: 78px;
+  background: #76B7CD !important;
+  width: 140px;
+  border-radius: 0 50px 50px 0;
+  padding: 10.5px 27px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 57px;
+  color: #F3F3F3 !important;
+  box-shadow: none !important;
+}
+
+.display-todos {
+  background: #F1ECE6;
+  height: calc(100vh - 450px);
+  padding: 0 50px;
+  border-radius: 50px;
+}
+
+.fix-todos {
+  height: 80%;
+  overflow: auto;
+}
+
+.todos-list-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.todo-name-block {
+  display: flex;
+  cursor: pointer;
+}
+
+.todo-text-selected {
+  margin-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #C2C2C2;
+  text-decoration: line-through;
+}
+
+.todo-text {
+  margin-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #323232;
+}
+
+.delete-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bottom-line-after-todo {
+  margin: 0px 40px 0 60px;
+  background: #76B7CD;
+  padding: 0 20px;
+  height: 1px;
+}
+
+.clear-completed {
+  display: flex;
+  position: absolute;
+  bottom: 130px;
+  right: 280px;
+  cursor: pointer;
+}
+
+.clear-completed-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #D98326;
+  margin-left: 10px
+}
